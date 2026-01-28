@@ -10,10 +10,12 @@ It downloads the dataset to the local `data/` folder and prepares the files the 
 ## Contents
 
 - `get_dataset.py` — downloads Camelyon17 from WILDS into `../data`
+- `AED.ipynb` — exploratory / analysis notebook
 - `training.ipynb` — model training notebook
 - `Eval.ipynb` — evaluation notebook
-- `ETHAN-AED.ipynb` — exploratory / analysis notebook
+- `ETHAN-AED.ipynb` — Ethan's short exploratory / analysis notebook
 - `multimodal_camelyon_model.pth` — saved model weights
+- `MAELIO_projet_2_camelyon.ipynb` — Maelio's project notebook
 
 ---
 
@@ -63,9 +65,13 @@ If you skip this step, the notebooks will fail because the dataset isn’t prese
 ## Run the notebooks
 
 After the dataset is downloaded, open and run the notebooks in any order:
+- `AED.ipynb`
 - `training.ipynb`
 - `Eval.ipynb`
 - `ETHAN-AED.ipynb`
+- `MAELIO_projet_2_camelyon.ipynb`
+
+You may need to adjust paths in the notebooks.
 
 ---
 
